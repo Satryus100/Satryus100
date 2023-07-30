@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/Jô_Ken_Pô/css/estilos.css">
+
+  
+  <title>JÔ_KEN_PÔ</title>
+</head>
+
+<body>
+  <h1>JÔ__KEN__PÔ</h1>
+  <h3>JOGADOR</h3>
+  <div class="imagi">
+    <img id="jou" src="/Jô_Ken_Pô/imagem/jo.jpg" alt="PEDRA">
+    <img  id="kenn" src="/Jô_Ken_Pô/imagem/ken.jpg" alt="PAPEL">
+    <img  id="poo" src="/Jô_Ken_Pô/imagem/po.jpg" alt="TESOURA">
+  </div>
+  <form name="formJoKenPo">
+    <input type="radio" name="equipe" id="jo">PEDRA
+    <input type="radio" name="equipe" id="ken">PAPEL
+    <input type="radio" name="equipe" id="po">TESOURA
+
+    <div id="butao">
+      <input type="button" value="JOGAR" onclick="jogar()">
+      <input type="reset" value="RESET" onclick="resetar()">
+    </div>
+  </form>
+  <hr>
+  <h3>OPONENTE VIRTUAL:</h3>
+  <img id="maquina" src="/Jô_Ken_Pô/imagem/flipe1.jpg" alt="imagem do flipe1" />
+  <hr>
+  <h3 id="placar">PLACAR</h3>
+  <script src="/Jô_Ken_Pô/js/animacao.js"></script>
+</body>
+
+</html>

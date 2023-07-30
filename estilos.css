@@ -1,0 +1,11 @@
+html{
+  text-align: center;
+}
+body{/*text-align: center;*/
+  background: orangered;
+  color: blue;
+  font-size: 2.em;
+}
+input{
+  font-size: 2.em;
+}
